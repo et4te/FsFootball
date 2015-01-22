@@ -91,6 +91,6 @@ function simulate_seq (niter)
         total_away_score += out[i].final_away_score
     end
 
-    (total_home_score, total_away_score)
+    (uint32(total_home_score), uint32(total_away_score))
 end
 
